@@ -3,10 +3,11 @@
 ## Инструкция по запуску
 
 ```bash
-git clone https://github.com/Korkin-Igor/Snippets.git # установка проекта
-python3 -m venv .venv # установка виртуального окружения (вместо python используйте название вашего интерпретатора питона 3.12+)
-source .venv/bin/activate # активация виртуального окружения
-pip install django # установка django
-pip install djangorestframework # установка djangorestframework
-pip install pygments # установка pygments
+git clone https://github.com/Korkin-Igor/Snippets.git
+python3 -m venv .venv
+source .venv/bin/activate
+pip install django
+pip install djangorestframework
+pip install pygments
+python manage.py runserver
 ```
